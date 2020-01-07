@@ -1,0 +1,30 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
+    "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 3000 --browser 'Firefox'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfredoElizarraras/Newsweek-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlfredoElizarraras/Newsweek-clone/issues"
+  },
+  "homepage": "https://github.com/AlfredoElizarraras/Newsweek-clone#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "browser-sync": "^2.26.7",
+    "run-script-os": "^1.0.3"
+  }
+}
