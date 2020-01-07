@@ -1,0 +1,157 @@
+/* #region base */
+
+/* From min-width, I find the answer on how to set the min-width of the page here
+https://stackoverflow.com/questions/3802455/min-width-in-window-resizing
+That's why I use important */
+body {
+  color: gray;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  min-width: 375px;
+  width: auto !important;
+  width: 375px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  height: 50px;
+  width: 100vw;
+}
+/* #endregion base */
+
+/* #region layout */
+
+/* #region header */
+.page-header__date {
+  height: 20px;
+  width: 100%;
+}
+
+.header__item {
+  height: 50px;
+}
+
+.page-header__links {
+  height: 30px;
+  width: 100%;
+}
+
+.page-header__link-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.885rem;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  padding: 6px 3px;
+}
+
+.page-header__menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.bar {
+  background-color: #fb9a94;
+  display: block;
+  margin-top: 4px;
+  height: 4px;
+  width: 24px;
+  position: relative;
+  bottom: 2px;
+}
+
+.page-header__button:hover {
+  color: red;
+}
+
+.page-header__main-title {
+  height: 20px;
+  width: 132px;
+  fill: white;
+}
+
+/* #endregion header */
+
+/* #endregion layout */
+
+/* #region modules */
+.btn-page-style {
+  box-sizing: border-box;
+  background-color: white;
+  color: red;
+  padding: 4px;
+  height: 26px;
+  line-height: 19px;
+}
+
+.border-right {
+  border-right: 0.5px solid #d9d9d9;
+}
+/* #endregion modules */
+
+/* #region media queries */
+
+@media only screen and (min-width: 992px) {
+  /* #region header */
+  .page-header {
+    height: 95px;
+    max-width: 1310px;
+  }
+
+  .header__item {
+    height: 95px;
+  }
+
+  .header__item:first-child {
+    margin-top: 20px;
+  }
+
+  .page-header__date {
+    font-size: 0.98rem;
+  }
+
+  .page-header__label {
+    font-size: 1.2rem;
+  }
+
+  .btn-page-style {
+    margin: 0 15px;
+    font-size: 1.2rem;
+  }
+
+  .page-header__main-title {
+    width: 395.633px;
+    height: 60px;
+    margin-top: -20px;
+  }
+
+  .page-header__end {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* #endregion header */
+}
+/* #endregion media queries */
