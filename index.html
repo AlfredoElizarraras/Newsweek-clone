@@ -21,7 +21,9 @@
     <title>Newsweek clone</title>
   </head>
   <body>
+    <!-- #region header -->
     <header class="page-header container-fluid">
+      <!-- #region header top -->
       <div class="row justify-content-between">
         <div class="col-lg-4 d-none d-lg-block d-xl-block">
           <div class="header__item d-flex flex-column justify-content-center">
@@ -75,52 +77,90 @@
           </div>
         </div>
       </div>
+      <!-- #endregion header top -->
 
-      <nav class="nav d-none d-lg-block d-xl-block">
-        <ul class="row navbar__list">
+      <!-- #region navbar -->
+      <nav class="navbar position-relative d-none d-lg-block d-xl-block">
+        <ul class="navbar__list d-flex justify-content-center">
           <li
-            class="col border-right d-flex justify-content-center align-items-center"
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
           >
             <a href="javascript:void(0);" class="navbar__list-item">U.S.</a>
           </li>
-          <li class="col border-right d-flex justify-content-center align-items-center">
-            <a href="javascript:void(0);" class="navbar__list-item">World</a class="navbar__list-item">
+          <li
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
+          >
+            <a href="javascript:void(0);" class="navbar__list-item">World</a>
           </li>
           <li
-            class="col border-right d-flex justify-content-center align-items-center"
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
           >
             <a href="javascript:void(0);" class="navbar__list-item">Business</a>
           </li>
-          <li class="col border-right d-flex justify-content-center align-items-center">
-            <a href="javascript:void(0);" class="navbar__list-item">Tech & Science</a>
+          <li
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
+          >
+            <a href="javascript:void(0);" class="navbar__list-item"
+              >Tech & Science</a
+            >
           </li>
           <li
-            class="col border-right d-flex justify-content-center align-items-center"
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
           >
             <a href="javascript:void(0);" class="navbar__list-item">Culture</a>
           </li>
-          <li class="col border-right d-flex justify-content-center align-items-center">
+          <li
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
+          >
             <a href="javascript:void(0);" class="navbar__list-item">Newsgeek</a>
           </li>
           <li
-            class="col border-right d-flex justify-content-center align-items-center"
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
           >
             <a href="javascript:void(0);" class="navbar__list-item">Sports</a>
           </li>
-          <li class="col border-right d-flex justify-content-center align-items-center">
+          <li
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
+          >
             <a href="javascript:void(0);" class="navbar__list-item">Health</a>
           </li>
           <li
-            class="col border-right d-flex justify-content-center align-items-center"
+            class="flex-grow-1 border-right d-flex justify-content-center align-items-center"
           >
             <a href="javascript:void(0);" class="navbar__list-item">Opinion</a>
           </li>
-          <li class="col">
-            <a href="javascript:void(0);" class="navbar__list-item">Vantage</a href="javascript:void(0);">
-            <input type="text" placeholder="Search" maxlength="128" />
+          <li class="flex-grow-1">
+            <form
+              class="form-inline d-flex align-items-center justify-content-center"
+            >
+              <label for=""
+                ><a href="javascript:void(0);" class="navbar__list-item"
+                  >Vantage</a
+                ></label
+              >
+              <input
+                type="text"
+                class="navbar__list-item navbar__input"
+                placeholder="Search"
+              />
+              <div class="gap-10"></div>
+              <label class="navbar__input__icon"></label>
+            </form>
           </li>
         </ul>
       </nav>
+      <!-- #endregion navbar -->
     </header>
+    <!-- #endregion header -->
+
+    <!-- #region main -->
+    <main class="conteiner-fluid">
+      <div class="top-news row">
+        <div class="top-news__column-left col"></div>
+        <div class="top-news__column-middle col-6"></div>
+        <div class="top-news__column-right col"></div>
+      </div>
+    </main>
+    <!-- #endregion main -->
   </body>
 </html>

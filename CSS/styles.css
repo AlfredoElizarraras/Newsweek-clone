@@ -41,6 +41,8 @@ header {
 /* #region layout */
 
 /* #region header */
+
+/* #region header top */
 .page-header__date {
   height: 20px;
   width: 100%;
@@ -92,15 +94,14 @@ header {
   width: 132px;
   fill: white;
 }
-
-/* #endregion header */
+/* #endregion header top */
 
 /* #region navbar */
-.nav {
-  position: relative;
-  left: -20px;
-  height: 56px;
+.navbar {
+  left: -35px;
+  top: 10px;
   background-color: #fff;
+  border-bottom: 2px solid #f4f5f6;
   font-size: 21px;
   line-height: 24px;
   font-weight: bold;
@@ -108,7 +109,8 @@ header {
 }
 
 .navbar__list {
-  margin-left: -30px;
+  margin-left: -40px;
+  width: 100%;
 }
 
 .navbar__list-item {
@@ -119,7 +121,24 @@ header {
 .navbar__list-item:hover {
   color: red;
 }
+
+.navbar__input {
+  width: 75px;
+  font-size: 0.785rem;
+  margin-left: 15px;
+}
+
+.navbar__input__icon {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+    center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+}
 /* #endregion navbar */
+
+/* #endregion header */
 
 /* #endregion layout */
 
@@ -134,7 +153,7 @@ header {
 }
 
 .border-right {
-  border-right: 0.5px solid #d9d9d9;
+  border-right: 0.5px solid #000 !important;
 }
 
 .container-fluid {
@@ -143,6 +162,10 @@ header {
 
 .col-7 {
   padding-right: 0;
+}
+
+.gap-10 {
+  width: 10px;
 }
 /* #endregion modules */
 
@@ -182,6 +205,13 @@ header {
     margin-right: 0 !important;
   }
   /* #endregion header */
+
+  /* #region navbar */
+  .page-header__main-title {
+    position: relative;
+    top: 20px;
+  }
+  /* #endregion navbar */
 }
 
 /* #endregion media queries */
