@@ -156,12 +156,18 @@
     <!-- #region main -->
     <main class="container-fluid">
       <div class="top-section row d-flex">
+        <!-- #region left column -->
         <div
           class="top-section__item top-section__column-left col-lg col-md-5 col-sm-4 order-1"
         ></div>
+        <!-- #endregion left column -->
+
+        <!-- #region middle column -->
         <div
           class="top-section__item top-section__column-middle col-lg-5 col-md-7 order-sm-1"
         >
+          <!-- #region top story (article) -->
+
           <h2><a class="top-section__title">Top Story</a></h2>
 
           <article class="d-flex flex-column px-1">
@@ -175,7 +181,7 @@
                 >World</span
               >
             </a>
-            <h3 class="article__title my-2">
+            <h3 class="article__title title my-2">
               <a href="javascript:void(0);"
                 >Trump Says U.S. and Iran Should Work Together Against ISIS</a
               >
@@ -186,18 +192,108 @@
               between the two countries.
             </p>
           </article>
+          <!-- #endregion top story (article) -->
 
+          <!-- #region no image view -->
           <article class="border-top">
-            <h2>
-              <a href="javascript:void(0);" class="no-image-new"
+            <h2 class="no-image-new">
+              <a href="javascript:void(0);"
                 >Iran Says It Has Concluded Its Response to U.S. Strike, Does
                 Not Seek Escalation</a
               >
             </h2>
           </article>
+          <!-- #endregion no image view -->
 
-          <h2><a class="top-section__title">More stories</a></h2>
+          <!-- #region more stories - culture & travel -->
+          <div class="d-flex flex-column">
+            <!-- #region more stories -->
+            <section class="order-lg-0 order-sm-1">
+              <h2><a class="top-section__title">More stories</a></h2>
+
+              <article class="more-stories__article border-top">
+                <div class="float-left">
+                  <img
+                    src="	https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.jpg?w=135&h=90&f=195f8753c0632139c9ca0529f1a7544b"
+                    alt="Trump Iran deescalation"
+                    class="more-stories-article__image mt-3 mr-3 mb-2"
+                  />
+                </div>
+                <h3 class="more-stories__article__title title mt-3">
+                  <a href="javascript:void(0);"
+                    >Iran Escalation Appears Averted but Concerns Persist as
+                    Congress Acts</a
+                  >
+                </h3>
+                <p>
+                  Absent the likelihood that the heightened conflicts between
+                  the U.S. and Iran will—at the moment—lead to further immediate
+                  conflict, lawmakers are now free to focus on attempts to limit
+                  the president's ability to circumvent Congress and take such
+                  consequential future military action.
+                </p>
+              </article>
+            </section>
+            <!-- #endregion more stories -->
+
+            <!-- #region culture and travel -->
+            <section class="culture-travel row order-lg-1 order-sm-0">
+              <h2 class="col-sm-12 ml-2">
+                <a class="top-section__title ">Culture & travel</a>
+              </h2>
+
+              <div class="col-md-6 col-sm-12">
+                <article class="culture-travel__article d-flex flex-column">
+                  <img
+                    src="https://d.newsweek.com/en/full/1556716/twa-hotel.jpg?w=397&h=265&f=7af1ce5444b4a2b638b278b6207aeb3a"
+                    alt="TWA Hotel"
+                    class="culture-travel__image"
+                  />
+                  <h3 class="culture-travel__title mt-2">
+                    <a href="javascrip:void(0);">
+                      Airport Restaurants Worthy of a Layover
+                    </a>
+                  </h3>
+                  <p>
+                    We're living in a golden age of airport dining. Enjoy an
+                    epicurean feast at the airport before your flight and smugly
+                    pass on the chicken or pasta option on board the plane.
+                  </p>
+                  <button class="culture-travel__button">
+                    travel
+                  </button>
+                </article>
+              </div>
+
+              <div class="col-md-6 col-sm-12">
+                <article class="culture-travel__article d-flex flex-column">
+                  <img
+                    src="https://d.newsweek.com/en/full/1556162/countryside-georgia-country.jpg?w=397&h=265&l=0&t=0&f=83d7f181efe4f3dc355511bf02aac3c6"
+                    alt="Countryside of Georgia the country"
+                    class="culture-travel__image"
+                  />
+                  <h3 class="culture-travel__title mt-2">
+                    <a href="javascrip:void(0);">
+                      Travel Trends for 2020, According to the Experts
+                    </a>
+                  </h3>
+                  <p>
+                    How will the trends of the last year and decade evolve and
+                    shape the way we travel in 2020 and beyond? We talked to a
+                    few experts to find out.
+                  </p>
+                  <button class="culture-travel__button">
+                    travel
+                  </button>
+                </article>
+              </div>
+            </section>
+            <!-- #endregion culture and travel -->
+          </div>
+          <!-- #endregion more stories & culture & travel -->
         </div>
+        <!-- #endregion middle column -->
+
         <div
           class="top-section__item top-section__column-right col-lg col-md-12 col-sm-4 order-2"
         ></div>

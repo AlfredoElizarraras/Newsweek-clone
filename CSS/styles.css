@@ -150,7 +150,6 @@ header {
 
 .top-section__column-middle {
   background-color: white;
-  height: 1500px;
 }
 
 .top-section__column-right {
@@ -171,6 +170,8 @@ header {
 /* #endregion layout */
 
 /* #region modules */
+
+/* #region general */
 .btn-page-style {
   box-sizing: border-box;
   background-color: white;
@@ -196,6 +197,15 @@ header {
   width: 10px;
 }
 
+.title a:hover {
+  text-decoration-color: #f72210;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  color: #000;
+}
+/* #endregion general */
+
+/* #region article */
 .article__image-word {
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
@@ -215,11 +225,6 @@ header {
   line-height: 24px;
 }
 
-.article__title a:hover {
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
 .article__summary {
   font-size: 16px;
   line-height: 18px;
@@ -228,18 +233,78 @@ header {
 .article__image {
   width: 100%;
 }
+/* #endregion article */
 
+/* #region no image new */
 .no-image-new {
   font-size: 1.4rem;
   font-weight: bold;
   padding: 10px 0;
-  line-height: 10px;
+  line-height: 22px;
   color: #000;
 }
 
 .no-image-new:hover {
   color: #f72210;
 }
+/* #endregion no image new */
+
+/* #region more stories */
+.more-stories__article {
+  font-size: 0.76rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 15px;
+}
+
+.more-stories__article__title {
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+  font-size: 0.985rem;
+  height: 63px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+/* #endregion more stories */
+
+/* #region culture and travel */
+.culture-travel {
+  background-color: #f4f5f7;
+}
+
+.culture-travel__article {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culture-travel__button {
+  display: block;
+  background-color: #c2d4d7;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: left;
+  width: 55px;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+
+.culture-travel__image {
+  width: 100%;
+}
+
+.culture-travel__title {
+  color: #272727;
+  font-size: 20px;
+  font-family: "Lora", sans-serif;
+}
+/* #endregion culture and travel */
+
 /* #endregion modules */
 
 /* #region media queries */
