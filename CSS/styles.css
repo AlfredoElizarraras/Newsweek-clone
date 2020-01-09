@@ -153,8 +153,7 @@ header {
 }
 
 .top-section__column-right {
-  background-color: purple;
-  height: 100px;
+  background-color: white;
 }
 
 .top-section__title {
@@ -203,6 +202,10 @@ header {
   text-decoration-thickness: 1px;
   color: #000;
 }
+
+.hover-red:hover {
+  color: #f72210;
+}
 /* #endregion general */
 
 /* #region article */
@@ -243,21 +246,17 @@ header {
   line-height: 22px;
   color: #000;
 }
-
-.no-image-new:hover {
-  color: #f72210;
-}
 /* #endregion no image new */
 
-/* #region more stories */
-.more-stories__article {
+/* #region story */
+.story__article {
   font-size: 0.76rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 15px;
 }
 
-.more-stories__article__title {
+.story__article__title {
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
   color: #000;
@@ -265,6 +264,11 @@ header {
   height: 63px;
   line-height: 20px;
   margin-bottom: 0;
+}
+
+.story-article__image {
+  width: 135px;
+  height: 90px;
 }
 /* #endregion more stories */
 
@@ -304,6 +308,13 @@ header {
   font-family: "Lora", sans-serif;
 }
 /* #endregion culture and travel */
+
+/* #region opinion */
+.opinion__image {
+  width: 63px;
+  height: 63px;
+}
+/* #endregion opinion */
 
 /* #endregion modules */
 
