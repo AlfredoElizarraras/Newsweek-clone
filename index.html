@@ -27,7 +27,7 @@
       <div class="row justify-content-between">
         <div class="col-lg-4 d-none d-lg-block d-xl-block">
           <div class="header__item d-flex flex-column justify-content-center">
-            <date class="page-header__date">Sun, Jan 05, 2020</date>
+            <span class="page-header__date">Sun, Jan 05, 2020</span>
           </div>
         </div>
 
@@ -133,7 +133,7 @@
             <form
               class="form-inline d-flex align-items-center justify-content-center"
             >
-              <label for=""
+              <label
                 ><a href="javascript:void(0);" class="navbar__list-item"
                   >Vantage</a
                 ></label
@@ -154,11 +154,53 @@
     <!-- #endregion header -->
 
     <!-- #region main -->
-    <main class="conteiner-fluid">
-      <div class="top-news row">
-        <div class="top-news__column-left col"></div>
-        <div class="top-news__column-middle col-6"></div>
-        <div class="top-news__column-right col"></div>
+    <main class="container-fluid">
+      <div class="top-section row d-flex">
+        <div
+          class="top-section__item top-section__column-left col-lg col-md-5 col-sm-4 order-1"
+        ></div>
+        <div
+          class="top-section__item top-section__column-middle col-lg-5 col-md-7 order-sm-1"
+        >
+          <h2><a class="top-section__title">Top Story</a></h2>
+
+          <article class="d-flex flex-column px-1">
+            <a class="position-relative" href="javascript:void(0);">
+              <img
+                class="article__image"
+                src="https://d.newsweek.com/en/full/1558504/donald-trump-remarks-white-house-iran.jpg?w=591&h=364&f=89639188e4dc6883a334da234ca435f8"
+                alt="donald, trump, remarks, white, house, iran"
+              />
+              <span class="article__image-word position-absolute px-2 py-1"
+                >World</span
+              >
+            </a>
+            <h3 class="article__title my-2">
+              <a href="javascript:void(0);"
+                >Trump Says U.S. and Iran Should Work Together Against ISIS</a
+              >
+            </h3>
+            <p class="article__summary">
+              President Donald Trump said the U.S. and Iran should join forces
+              against ISIS, a common foe, in an attempt to de-escalate tensions
+              between the two countries.
+            </p>
+          </article>
+
+          <article class="border-top">
+            <h2>
+              <a href="javascript:void(0);" class="no-image-new"
+                >Iran Says It Has Concluded Its Response to U.S. Strike, Does
+                Not Seek Escalation</a
+              >
+            </h2>
+          </article>
+
+          <h2><a class="top-section__title">More stories</a></h2>
+        </div>
+        <div
+          class="top-section__item top-section__column-right col-lg col-md-12 col-sm-4 order-2"
+        ></div>
       </div>
     </main>
     <!-- #endregion main -->
