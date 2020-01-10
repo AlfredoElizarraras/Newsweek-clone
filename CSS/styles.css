@@ -36,6 +36,7 @@ header {
   height: 50px;
   width: 100vw;
 }
+
 /* #endregion base */
 
 /* #region layout */
@@ -60,8 +61,6 @@ header {
 .page-header__link-item {
   display: inline-block;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.885rem;
   font: bold 14px/14px "Roboto Condensed", sans-serif;
   padding: 6px 3px;
 }
@@ -94,6 +93,7 @@ header {
   width: 132px;
   fill: white;
 }
+
 /* #endregion header top */
 
 /* #region navbar */
@@ -136,6 +136,7 @@ header {
   clip: auto;
   font-size: 0;
 }
+
 /* #endregion navbar */
 
 /* #endregion header */
@@ -144,8 +145,7 @@ header {
 
 /* #region top section */
 .top-section__column-left {
-  background-color: aqua;
-  height: 100px;
+  background-color: white;
 }
 
 .top-section__column-middle {
@@ -162,6 +162,7 @@ header {
   color: rgba(3, 3, 3, 0.4);
   height: 22px;
 }
+
 /* #endregion top section */
 
 /* #endregion main */
@@ -206,6 +207,7 @@ header {
 .hover-red:hover {
   color: #f72210;
 }
+
 /* #endregion general */
 
 /* #region article */
@@ -236,6 +238,7 @@ header {
 .article__image {
   width: 100%;
 }
+
 /* #endregion article */
 
 /* #region no image new */
@@ -246,6 +249,7 @@ header {
   line-height: 22px;
   color: #000;
 }
+
 /* #endregion no image new */
 
 /* #region story */
@@ -261,7 +265,6 @@ header {
   font-family: "Roboto Condensed", sans-serif;
   color: #000;
   font-size: 0.985rem;
-  height: 63px;
   line-height: 20px;
   margin-bottom: 0;
 }
@@ -270,6 +273,7 @@ header {
   width: 135px;
   height: 90px;
 }
+
 /* #endregion more stories */
 
 /* #region culture and travel */
@@ -294,7 +298,7 @@ header {
   width: 55px;
   box-shadow: none;
   border: 0;
-  border-radius: 0px;
+  border-radius: 0;
   margin-bottom: 30px;
 }
 
@@ -307,6 +311,7 @@ header {
   font-size: 20px;
   font-family: "Lora", sans-serif;
 }
+
 /* #endregion culture and travel */
 
 /* #region opinion */
@@ -314,6 +319,14 @@ header {
   width: 63px;
   height: 63px;
 }
+
+.opinion__author {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+}
+
 /* #endregion opinion */
 
 /* #endregion modules */
@@ -334,6 +347,7 @@ header {
 
   .page-header__date {
     font-size: 0.98rem;
+    top: 20px;
   }
 
   .page-header__label {
@@ -345,31 +359,33 @@ header {
     font-size: 1.2rem;
   }
 
-  .page-header__main-title {
-    width: 395.633px;
-    height: 60px;
-    margin-top: -20px;
-  }
-
   .page-header__end {
     padding-right: 0 !important;
     margin-right: 0 !important;
+  }
+
+  .header__item__right-container {
+    top: 20px;
   }
   /* #endregion header top */
 
   /* #region navbar */
   .page-header__main-title {
-    position: relative;
-    top: 20px;
+    width: 395.633px;
+    height: 60px;
+    margin-top: 20px;
   }
+
+  .top-section__item {
+    margin-top: 60px;
+  }
+
   /* #endregion navbar */
 
   /* #endregion header */
 
   /* #region main */
-  .top-section__item {
-    margin-top: 60px;
-  }
+
   /* #endregion main */
 }
 
