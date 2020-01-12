@@ -159,6 +159,7 @@
 
     <!-- #region main -->
     <main class="container-fluid">
+      <!-- #region top section -->
       <div class="top-section row d-flex">
         <!-- #region left column -->
         <div
@@ -910,17 +911,51 @@
         </div>
         <!-- #endregion right column -->
       </div>
+      <!-- #endregion top section -->
 
-      <section class="row">
-        <div class="d-flex justify-content-center">
+      <!-- #region conversations -->
+      <section class="row mx-2">
+        <div
+          class="title-with-icon d-flex justify-content-center align-items-center col-12"
+        >
           <img
             src="https://g.newsweek.com/themes/newsweek/favicons/android-chrome-192x192.png"
             alt=""
-            class="title-with-icon__image"
+            class="title-with-icon__image mr-1"
           />
-          <h2>Newsweek Conversations</h2>
+          Newsweek Conversations
+        </div>
+
+        <div class="conversation-section row col-12">
+          <div class="col-12 col-md-3 p-2 order-2 order-md-1">
+            <article class="col-l story__article d-flex flex-column justify-content-start mt-2 mx-2">
+                <h3 class="story__article__title conversation-section__featured-title title mt-3">
+                  <a href="javascript:void(0);" class="hover-red"
+                    >The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS'
+                  'Tell Me a Story'</a
+                  >
+                </h3>
+                <p>
+                  "I try my best not to drink the Kool-Aid too much, because that can be a slippery slope," Paul Wesley said about dealing with fame.
+                </p>
+                <span class="conversation-section__time position-relative">20:00</span>
+              </article>
+          </div>
+
+          <div class="col-12 col-md-3 order-1 order-md-2 conversation__main-image-container">
+            <article class="d-flex flex-column">
+              <div class="conversation__image"></div>            
+            <a class="position-relative" href="javascript:void(0);">
+              <span class="px-2 py-1 genereicon genereicon-play"
+                >▶</span
+              >
+            </a>
+          </article>
+          </div>
+          <div class="col-12 col-md-3 order-3"></div>
         </div>
       </section>
+      <!-- #endregion conversations -->
     </main>
     <!-- #endregion main -->
   </body>
