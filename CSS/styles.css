@@ -146,6 +146,8 @@ header {
 /* #region top section */
 .top-section__column-left {
   background-color: white;
+  /* position: sticky;
+  top: 0; */
 }
 
 .top-section__column-middle {
@@ -154,6 +156,8 @@ header {
 
 .top-section__column-right {
   background-color: white;
+  /* position: sticky;
+  top: 0; */
 }
 
 .top-section__title {
@@ -168,12 +172,12 @@ header {
 /* #endregion top section */
 
 /* #region conversation */
-.conversation__main-image-container {
-  /* padding: 0; */
-}
-
 .conversation-section {
   background-color: black;
+}
+
+.conversation-section__article {
+  padding: 20px;
 }
 
 .conversation-section__featured-title {
@@ -205,13 +209,16 @@ header {
   padding: 0;
 }
 
-.conversation__image--small {
-  height: 86.41px;
-  width: 143.75px;
+.conversation-section__small-title {
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
 }
 
 .conversation__image--small-first {
   background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+  width: 150px;
+  height: 90px;
 }
 
 .conversation__image--small-second {
@@ -220,6 +227,10 @@ header {
 
 .conversation__image--small-third {
   background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.conversation-section__first-column {
+  padding: 20px;
 }
 /* #endregion conversation */
 
@@ -433,8 +444,8 @@ header {
   width: 45px;
   font-size: 40px;
   line-height: 30px;
-  bottom: 0;
-  left: 0;
+  top: -45px;
+  z-index: 1;
 }
 /* #endregion conversations */
 
@@ -461,10 +472,6 @@ header {
   /* #endregion culture and travel */
 
   /* #region conversations */
-  .conversation-section {
-    flex-direction: row !important;
-  }
-
   .conversation__image {
     height: 543.5px;
     width: 246px;
@@ -498,6 +505,17 @@ header {
 
   .conversation__image--small-third {
     height: 173.5;
+  }
+
+  .conversation-section__first-column {
+    padding: 40px 25px 30px;
+    min-width: 246px;
+  }
+
+  .conversation-section__featured-title {
+    font-size: 25px !important;
+    line-height: 32px !important;
+    margin-bottom: 4px !important;
   }
   /* #endregion conversations */
 
@@ -585,6 +603,10 @@ header {
   .conversation-section__small-title {
     font-size: 15px;
     color: #fff;
+  }
+
+  .conversation-section__first-column {
+    padding: 40px 25px 30px;
   }
   /* #endregion conversations */
 
