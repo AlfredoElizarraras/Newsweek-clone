@@ -169,12 +169,11 @@ header {
 
 /* #region conversation */
 .conversation__main-image-container {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .conversation-section {
   background-color: black;
-  padding: 0;
 }
 
 .conversation-section__featured-title {
@@ -428,6 +427,15 @@ header {
   height: 70px;
   line-height: 50px;
 }
+
+.genereicon-play--small {
+  height: 45px;
+  width: 45px;
+  font-size: 40px;
+  line-height: 30px;
+  bottom: 0;
+  left: 0;
+}
 /* #endregion conversations */
 
 /* #endregion modules */
@@ -453,6 +461,10 @@ header {
   /* #endregion culture and travel */
 
   /* #region conversations */
+  .conversation-section {
+    flex-direction: row !important;
+  }
+
   .conversation__image {
     height: 543.5px;
     width: 246px;
@@ -463,6 +475,13 @@ header {
     width: 53px;
     font-size: 45px;
     line-height: 40px;
+  }
+
+  .genereicon-play--small {
+    height: 45px;
+    width: 45px;
+    font-size: 40px;
+    line-height: 30px;
   }
 
   .conversation__image--small {
