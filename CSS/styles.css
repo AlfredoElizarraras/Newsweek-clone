@@ -175,63 +175,6 @@ header {
 .conversation-section {
   background-color: black;
 }
-
-.conversation-section__article {
-  padding: 20px;
-}
-
-.conversation-section__featured-title {
-  font-size: 1.645rem !important;
-  line-height: 34px !important;
-  color: #fff !important;
-}
-
-.conversation-section__title {
-  font-size: 1.245rem !important;
-  line-height: 34px !important;
-  color: #fff !important;
-}
-
-.conversation-section__time {
-  font-size: 0.985rem;
-}
-
-.conversation__main-image {
-  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
-}
-
-.conversation__image {
-  display: block;
-  height: 223.617px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-
-.conversation-section__small-title {
-  color: #fff !important;
-  font-size: 13px !important;
-  line-height: 18px !important;
-}
-
-.conversation__image--small-first {
-  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
-  width: 150px;
-  height: 90px;
-}
-
-.conversation__image--small-second {
-  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
-}
-
-.conversation__image--small-third {
-  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
-}
-
-.conversation-section__first-column {
-  padding: 20px;
-}
 /* #endregion conversation */
 
 /* #endregion main */
@@ -447,6 +390,71 @@ header {
   top: -45px;
   z-index: 1;
 }
+
+.conversation-section__article {
+  border-top: 1px solid #fff;
+}
+
+.conversation-section__featured-title {
+  font-size: 1.645rem !important;
+  line-height: 34px !important;
+  color: #fff !important;
+}
+
+.conversation-section__title {
+  font-size: 1.245rem !important;
+  line-height: 34px !important;
+  color: #fff !important;
+}
+
+.conversation-section__time {
+  font-size: 0.985rem;
+}
+
+.conversation__main-image {
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+}
+
+.conversation__image {
+  display: block;
+  height: 223.617px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.conversation-section__small-title {
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
+
+.conversation-section__image--small {
+  top: 20px;
+  margin-right: 10px;
+}
+
+.conversation-section__image--small-first {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 90px;
+}
+
+.conversation__image--small-second {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.conversation__image--small-third {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.conversation-section__first-column {
+  padding: 20px;
+}
 /* #endregion conversations */
 
 /* #endregion modules */
@@ -491,19 +499,25 @@ header {
     line-height: 30px;
   }
 
-  .conversation__image--small {
-    width: 102.083px;
+  .conversation-section__article {
+    border-left: 1px solid #fff;
   }
 
-  .conversation__image--small-first {
+  .conversation-section__image--small {
+    top: 0;
+    margin-right: 5px;
+  }
+
+  .conversation-section__image--small-first {
     height: 233.5px;
+    max-width: 102.083px;
   }
 
-  .conversation__image--small-second {
+  .conversation-section__image--small-second {
     height: 133.5px;
   }
 
-  .conversation__image--small-third {
+  .conversation-section__image--small-third {
     height: 173.5;
   }
 
