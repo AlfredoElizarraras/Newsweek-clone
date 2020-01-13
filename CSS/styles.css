@@ -183,12 +183,21 @@ header {
   color: #fff !important;
 }
 
+.conversation-section__title {
+  font-size: 1.245rem !important;
+  line-height: 34px !important;
+  color: #fff !important;
+}
+
 .conversation-section__time {
   font-size: 0.985rem;
 }
 
-.conversation__image {
+.conversation__main-image {
   background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+}
+
+.conversation__image {
   display: block;
   height: 223.617px;
   background-position: center;
@@ -197,23 +206,21 @@ header {
   padding: 0;
 }
 
-.genereicon {
-  text-align: center;
-  display: block;
-  font-family: "Genericons";
-  cursor: pointer;
+.conversation__image--small {
+  height: 86.41px;
+  width: 143.75px;
 }
 
-.genereicon-play {
-  background-color: #fd0100;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 60px;
-  width: 70px;
-  height: 70px;
-  line-height: 50px;
+.conversation__image--small-first {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.conversation__image--small-second {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.conversation__image--small-third {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
 }
 /* #endregion conversation */
 
@@ -402,6 +409,27 @@ header {
 
 /* #endregion opinion */
 
+/* #region conversations */
+.genereicon {
+  text-align: center;
+  display: block;
+  font-family: "Genericons";
+  cursor: pointer;
+}
+
+.genereicon-play {
+  background-color: #fd0100;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 60px;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+}
+/* #endregion conversations */
+
 /* #endregion modules */
 
 /* #region media queries */
@@ -435,6 +463,22 @@ header {
     width: 53px;
     font-size: 45px;
     line-height: 40px;
+  }
+
+  .conversation__image--small {
+    width: 102.083px;
+  }
+
+  .conversation__image--small-first {
+    height: 233.5px;
+  }
+
+  .conversation__image--small-second {
+    height: 133.5px;
+  }
+
+  .conversation__image--small-third {
+    height: 173.5;
   }
   /* #endregion conversations */
 
@@ -501,6 +545,27 @@ header {
   .conversation__image {
     height: 363.5px;
     width: 469px;
+  }
+
+  .conversation__image--small {
+    width: 167.083px;
+  }
+
+  .conversation__image--small-first {
+    height: 153px;
+  }
+
+  .conversation__image--small-second {
+    height: 93.5px;
+  }
+
+  .conversation__image--small-third {
+    height: 113.5;
+  }
+
+  .conversation-section__small-title {
+    font-size: 15px;
+    color: #fff;
   }
   /* #endregion conversations */
 
