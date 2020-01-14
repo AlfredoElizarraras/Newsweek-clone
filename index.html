@@ -915,21 +915,22 @@
       </div>
       <!-- #endregion top section -->
 
+      <!-- #region In The Magazine -->
+      <!-- #endregion In The Magazine -->
+
       <!-- #region conversations -->
       <div class="d-flex flex-column mx-2">
         <div
-          class="title-with-icon d-flex justify-content-center align-items-center "
+          class="section-title d-flex justify-content-center align-items-center"
         >
-          <img
-            src="https://g.newsweek.com/themes/newsweek/favicons/android-chrome-192x192.png"
-            alt=""
-            class="title-with-icon__image mr-1"
-          />
+          <span class="section-title__icon"></span>
           Newsweek Conversations
         </div>
 
-        <div class="d-flex flex-column flex-md-row conversation-section">
-          <div class="conversation-section__first-column order-2 order-md-1">
+        <div class="conversation-section d-flex flex-column flex-md-row row">
+          <div
+            class="conversation-section__first-column order-2 order-md-1 col-12 col-md-4"
+          >
             <article
               class="story__article d-flex flex-column justify-content-start"
             >
@@ -941,7 +942,7 @@
                   CBS' 'Tell Me a Story'</a
                 >
               </h3>
-              <p>
+              <p class="conversation-section__paragraph">
                 "I try my best not to drink the Kool-Aid too much, because that
                 can be a slippery slope," Paul Wesley said about dealing with
                 fame.
@@ -952,16 +953,22 @@
             </article>
           </div>
 
-          <div class="d-flex flex-column order-1 order-md-2">
-            <div class="conversation__image conversation__main-image"></div>
+          <div class="d-flex flex-column order-1 order-md-2 col-12 col-md-4">
+            <div
+              class="conversation-section__image conversation-section__main-image"
+            ></div>
             <a class="position-relative" href="javascript:void(0);">
               <span class="px-2 py-1 genereicon genereicon-play">▶</span>
             </a>
           </div>
 
-          <div class="container order-3">
+          <div
+            class="conversation-section__third-column container order-3 col-12 col-md-4"
+          >
             <div class="conversation-section__article row">
-              <div class="conversation-section__image--small position-relative col-5">
+              <div
+                class="conversation-section__image--small position-relative col-5"
+              >
                 <div class="conversation-section__image--small-first"></div>
                 <a class="" href="javascript:void(0);">
                   <span
@@ -971,10 +978,7 @@
                 </a>
               </div>
 
-              <article
-                class="col-6"
-                style="height: 86.41;"
-              >
+              <article class="col-6">
                 <h3
                   class="story__article__title conversation-section__small-title title"
                 >
@@ -989,8 +993,10 @@
               </article>
             </div>
 
-             <div class="conversation-section__article row">
-              <div class="conversation-section__image--small position-relative col-5">
+            <div class="conversation-section__article row">
+              <div
+                class="conversation-section__image--small position-relative col-5"
+              >
                 <div class="conversation-section__image--small-second"></div>
                 <a class="" href="javascript:void(0);">
                   <span
@@ -1002,7 +1008,6 @@
 
               <article
                 class="d-flex flex-column justify-content-center justify-content-md-start col-6"
-                style="height: 86.41px;"
               >
                 <h3
                   class="story__article__title conversation-section__small-title title"
@@ -1018,7 +1023,9 @@
             </div>
 
             <div class="conversation-section__article row">
-              <div class="conversation-section__image--small position-relative col-5">
+              <div
+                class="conversation-section__image--small position-relative col-5"
+              >
                 <div class="conversation-section__image--small-third"></div>
                 <a class="" href="javascript:void(0);">
                   <span
@@ -1030,13 +1037,13 @@
 
               <article
                 class="d-flex flex-column justify-content-center justify-content-md-start col-6"
-                style="height: 86.41px;"
               >
                 <h3
                   class="story__article__title conversation-section__small-title title"
                 >
                   <a href="javascript:void(0);" class="hover-red"
-                    >‘Stranger Things’ Star Matthew Modine On New Movie ‘Miss Virginia’</a
+                    >‘Stranger Things’ Star Matthew Modine On New Movie ‘Miss
+                    Virginia’</a
                   >
                 </h3>
                 <span class="conversation-section__time position-relative"
@@ -1045,7 +1052,6 @@
               </article>
             </div>
           </div>
-          
         </div>
       </div>
       <!-- #endregion conversations -->
