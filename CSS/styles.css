@@ -361,6 +361,10 @@ header {
 
 /* #endregion opinion */
 
+/* #region in the magazine */
+
+/* #endregion in the magazine */
+
 /* #region conversations */
 .genereicon {
   text-align: center;
@@ -612,6 +616,18 @@ header {
 
   /* #region main */
 
+  /* #region modules */
+
+  /* #region general */
+  .border-lg-bottom {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .padding-lg-bottom-1 {
+    padding-bottom: 1%;
+  }
+  /* #endregion general */
+
   /* #region conversations */
   .conversation-section__small-title {
     font-size: 1.2rem !important;
@@ -630,6 +646,8 @@ header {
     padding: 40px 25px 30px;
   }
   /* #endregion conversations */
+
+  /* #endregion modules */
 
   /* #endregion main */
 }
