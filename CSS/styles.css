@@ -262,7 +262,6 @@ header {
 .article__image {
   width: 100%;
 }
-
 /* #endregion article */
 
 /* #region no image new */
@@ -362,7 +361,29 @@ header {
 /* #endregion opinion */
 
 /* #region in the magazine */
+.article-in-the-magazine__image-word {
+  font-size: 0.875rem;
+}
 
+.article-in-the-magazine__image-word-left {
+  background-color: #f72210;
+  color: #fff;
+}
+
+.article-in-the-magazine__image-word-right {
+  background-color: #fff;
+  color: #f72210;
+}
+
+.article-in-the-magazine__title {
+  font-size: 0.995rem;
+  line-height: 15px;
+}
+
+.article-in-the-magazine__image {
+  height: 100%;
+  width: 100%;
+}
 /* #endregion in the magazine */
 
 /* #region conversations */
@@ -627,6 +648,56 @@ header {
     padding-bottom: 1%;
   }
   /* #endregion general */
+
+  /* #region in the magazine */
+  .article-in-the-magazine__image-first--big {
+    height: 379.133px !important;
+  }
+
+  .article-in-the-magazine__image-last--big {
+    height: 319px !important;
+  }
+
+  .article-in-the-magazine__image-lg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+  }
+
+  .article-in-the-magazine__image-lg-featured {
+    background-image: url("https://d.newsweek.com/en/full/1556038/january-03-17-2020-cover.jpg?w=360&h=480&q=90&f=900a7949a9d4cc3e53ba2ecee1de3602");
+  }
+
+  .article-in-the-magazine__image-lg-1-1 {
+    background-image: url("https://d.newsweek.com/en/full/1555301/fe-queen-02-1175861265.jpg?w=466&h=311&l=52&t=20&q=90&f=b465ad88a227817f5e10c6870b784301");
+  }
+
+  .article-in-the-magazine__image-lg-1-2 {
+    background-image: url("https://d.newsweek.com/en/full/1558298/donald-trump.jpg?w=397&h=265&l=0&t=0&q=90&f=a2eedc207bbc37839c5e0a7acd7812a7");
+  }
+
+  .article-in-the-magazine__image-lg-1-3 {
+    background-image: url("https://d.newsweek.com/en/full/1555283/per-durham-01-banner.jpg?w=466&h=311&l=51&t=38&q=90&f=d0c02907def67ab44db9659b57a0d877");
+  }
+
+  .article-in-the-magazine__image-lg-2-1 {
+    background-image: url("https://d.newsweek.com/en/full/1555244/per-mathqanda-banner.jpg?w=466&h=311&q=90&f=299d38584520b38dbb048bcb17b850e4");
+  }
+
+  .article-in-the-magazine__image-lg-2-2 {
+    background-image: url("https://d.newsweek.com/en/full/1555857/cul-map-wellness-morocco.jpg?w=466&h=311&q=90&f=fbdb51d8b5a230ed9cfdee635fe19372");
+  }
+
+  .article-in-the-magazine__image-lg-2-3 {
+    background-image: url("https://d.newsweek.com/en/full/1554653/cul-ps-erivo-banner.jpg?w=466&h=311&l=48&t=38&q=90&f=4d2f648271497646b6f7dc7999df4b46");
+  }
+
+  .article-in-the-magazine__image-lg-2-4 {
+    background-image: url("https://d.newsweek.com/en/full/1555679/battle-cry.jpg?w=480&h=320&l=52&t=48&q=90&f=15fe70f755c1bd14895070e8604d2bb0");
+  }
+  /* #endregion in the magazine */
 
   /* #region conversations */
   .conversation-section__small-title {
