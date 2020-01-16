@@ -520,6 +520,25 @@ header {
 
 /* #endregion conversations */
 
+/* #region featured slideshows */
+.article-featured-slideshows__image-word {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 0 / contain no-repeat;
+  color: #e9212e;
+}
+/* #endregion featured slideshows */
+
 /* #endregion modules */
 
 /* #region media queries */
