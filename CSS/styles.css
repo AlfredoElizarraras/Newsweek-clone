@@ -146,6 +146,7 @@ header {
 /* #region top section */
 .top-section__column-left {
   background-color: white;
+
   /* position: sticky;
   top: 0; */
 }
@@ -156,6 +157,7 @@ header {
 
 .top-section__column-right {
   background-color: white;
+
   /* position: sticky;
   top: 0; */
 }
@@ -175,6 +177,7 @@ header {
 .conversation-section {
   background-color: black;
 }
+
 /* #endregion conversation */
 
 /* #endregion main */
@@ -232,6 +235,7 @@ header {
     no-repeat #f72210;
   margin-right: 10px;
 }
+
 /* #endregion general */
 
 /* #region article */
@@ -262,6 +266,7 @@ header {
 .article__image {
   width: 100%;
 }
+
 /* #endregion article */
 
 /* #region no image new */
@@ -384,13 +389,25 @@ header {
   height: 100%;
   width: 100%;
 }
+
+.article-in-the-magazine__title-featured {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
 /* #endregion in the magazine */
 
 /* #region conversations */
 .genereicon {
   text-align: center;
   display: block;
-  font-family: "Genericons";
+  font-family: "Genericons", sans-serif;
   cursor: pointer;
 }
 
@@ -499,6 +516,7 @@ header {
 .conversation-section__paragraph {
   margin-bottom: 10px;
 }
+
 /* #endregion conversations */
 
 /* #endregion modules */
@@ -576,6 +594,7 @@ header {
     line-height: 32px !important;
     margin-bottom: 4px !important;
   }
+
   /* #endregion conversations */
 
   /* #endregion modules */
@@ -647,6 +666,7 @@ header {
   .padding-lg-bottom-1 {
     padding-bottom: 1%;
   }
+
   /* #endregion general */
 
   /* #region in the magazine */
@@ -697,6 +717,7 @@ header {
   .article-in-the-magazine__image-lg-2-4 {
     background-image: url("https://d.newsweek.com/en/full/1555679/battle-cry.jpg?w=480&h=320&l=52&t=48&q=90&f=15fe70f755c1bd14895070e8604d2bb0");
   }
+
   /* #endregion in the magazine */
 
   /* #region conversations */
@@ -716,6 +737,7 @@ header {
   .conversation-section__first-column {
     padding: 40px 25px 30px;
   }
+
   /* #endregion conversations */
 
   /* #endregion modules */
