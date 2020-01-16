@@ -254,13 +254,14 @@ header {
 .article__title {
   font-weight: bold;
   color: #000;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 24px;
 }
 
 .article__summary {
-  font-size: 16px;
+  font-size: 0.875rem;
   line-height: 18px;
+  color: #000;
 }
 
 .article__image {
