@@ -539,6 +539,21 @@ header {
 }
 /* #endregion featured slideshows */
 
+/* #region in page nav sections */
+.in-page-nav-section__block-title {
+  color: #f72210;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.in-page-nav-section__title {
+  display: block;
+  width: 100%;
+}
+/* #endregion in page nav sections */
+
 /* #endregion modules */
 
 /* #region media queries */
