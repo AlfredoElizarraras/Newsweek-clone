@@ -591,7 +591,7 @@ header {
 }
 
 .advertisement-section__container-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #000;
   font-weight: bold;
   padding-right: 0.895rem;
@@ -622,17 +622,25 @@ header {
   background: rgba(0, 0, 0, 0)
     url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     no-repeat scroll center center / cover;
-  max-width: 191px;
-  width: 48%;
+  /* max-width: 191px; */
+  width: 100%;
+  min-height: 160px;
 }
 
 .advertisement-section__right-container__summary {
   padding: 30px;
   border: 1px solid #ebebeb;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .advertisement-section__left-container__info-container {
   text-align: center;
+}
+
+.advertisement-section__right-container__info-container {
+  height: 160px;
 }
 /* #endregion advertisement */
 
@@ -715,8 +723,13 @@ header {
   /* #endregion conversations */
 
   /* #region advertisement */
-  .advertisement-section__left-container__info-container {
+  .advertisement-section__left-container__info-container,
+  .advertisement-section__right-container__summary {
     text-align: left;
+  }
+
+  .advertisement-section__right-container__image {
+    max-width: 191px;
   }
   /* #endregion advertisement */
 
@@ -862,6 +875,12 @@ header {
   }
 
   /* #endregion conversations */
+
+  /* #region advertisement */
+  .advertisement-section__right-container__info-container {
+    height: 273px;
+  }
+  /* #endregion advertisement */
 
   /* #endregion modules */
 
