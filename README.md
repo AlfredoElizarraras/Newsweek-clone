@@ -1,14 +1,21 @@
 ---
 
---# Newsweek Clone
+# Apple Page Clone
 
 > This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
 
+![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
 
-## Built With
+---## Live Demo
+
+https://newsweek-clone.web.app/
+
+---## Built With
 
 - HTML5
 - CSS3
+- Bootstrap4
+- Firebase (Deploy)
 - Node
 
 ---### Prerequisites

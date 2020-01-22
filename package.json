@@ -26,5 +26,8 @@
     "stylelint-config-recommended": "^3.0.0",
     "browser-sync": "^2.26.7",
     "run-script-os": "^1.0.3"
+  },
+  "dependencies": {
+    "firebase-tools": "^7.12.1"
   }
 }
