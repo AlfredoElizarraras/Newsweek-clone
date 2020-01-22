@@ -146,9 +146,6 @@ header {
 /* #region top section */
 .top-section__column-left {
   background-color: white;
-
-  /* position: sticky;
-  top: 0; */
 }
 
 .top-section__column-middle {
@@ -157,9 +154,6 @@ header {
 
 .top-section__column-right {
   background-color: white;
-
-  /* position: sticky;
-  top: 0; */
 }
 
 .top-section__title {
@@ -181,6 +175,16 @@ header {
 /* #endregion conversation */
 
 /* #endregion main */
+
+/* #region footer */
+.footer {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 14rem;
+}
+
+/* #endregion footer */
 
 /* #endregion layout */
 
@@ -248,6 +252,7 @@ header {
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
+
 /* #endregion general */
 
 /* #region article */
@@ -414,6 +419,7 @@ header {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
+
 /* #endregion in the magazine */
 
 /* #region conversations */
@@ -422,6 +428,7 @@ header {
   display: block;
   font-family: "Genericons", sans-serif;
   cursor: pointer;
+  font-size: 26px;
 }
 
 .genereicon-play {
@@ -549,6 +556,7 @@ header {
     0 0 / contain no-repeat;
   color: #e9212e;
 }
+
 /* #endregion featured slideshows */
 
 /* #region in page nav sections */
@@ -564,6 +572,7 @@ header {
   display: block;
   width: 100%;
 }
+
 /* #endregion in page nav sections */
 
 /* #region line break */
@@ -573,6 +582,7 @@ header {
   height: 2px;
   left: -10%;
 }
+
 /* #endregion line break */
 
 /* #region advertisement */
@@ -622,6 +632,7 @@ header {
   background: rgba(0, 0, 0, 0)
     url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     no-repeat scroll center center / cover;
+
   /* max-width: 191px; */
   width: 100%;
   min-height: 160px;
@@ -642,16 +653,94 @@ header {
 .advertisement-section__right-container__info-container {
   height: 160px;
 }
+
 /* #endregion advertisement */
+
+/* #region footer */
+.footer-top__svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.footer-top__copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.footer-top__social {
+  color: #666;
+  padding-left: 0;
+  margin-bottom: 12px;
+}
+
+.footer-top__social-item {
+  margin-left: 10px;
+}
+
+.footer-bottom__links {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-bottom__links-item-first {
+  padding-left: 0;
+}
+
+.footer-bottom__links-item {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+  border-right: 1px solid #d9d9d9;
+}
+
+.footer-bottom__links-item-last {
+  border: none;
+}
+
+.footer__menu {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.footer__menu-last {
+  padding-left: 0px;
+}
+/* #endregion footer */
 
 /* #endregion modules */
 
 /* #region media queries */
 
 @media only screen and (min-width: 768px) {
-  /* #region main */
+  /* #region layout */
+
+  /* #region footer */
+  .footer {
+    margin-top: 2rem;
+  }
+
+  /* #endregion footer */
+
+  /* #endregion layout */
 
   /* #region modules */
+
+  /* #region general */
+
+  /* #endregion general */
+
+  /* #region main */
 
   /* #region culture and travel */
   .culture-travel__article--padding-right {
@@ -688,10 +777,6 @@ header {
   .conversation-section__image--small {
     top: 0;
     padding: 0;
-  }
-
-  .conversation-section__image {
-    height: 100%;
   }
 
   .conversation-section__image--small-first {
@@ -731,11 +816,12 @@ header {
   .advertisement-section__right-container__image {
     max-width: 191px;
   }
+
   /* #endregion advertisement */
 
-  /* #endregion modules */
-
   /* #endregion main */
+
+  /* #endregion modules */
 }
 
 @media only screen and (min-width: 992px) {
@@ -803,6 +889,9 @@ header {
     padding-bottom: 1%;
   }
 
+  .footer__menu-last {
+    padding-left: 15px;
+  }
   /* #endregion general */
 
   /* #region in the magazine */
@@ -857,16 +946,12 @@ header {
   /* #endregion in the magazine */
 
   /* #region conversations */
-  .conversation-section__small-title {
-    font-size: 1.2rem !important;
-  }
-
   .conversation__image--small {
     width: 167.083px;
   }
 
   .conversation-section__small-title {
-    font-size: 15px;
+    font-size: 1.2rem !important;
     color: #fff;
   }
 
@@ -880,6 +965,7 @@ header {
   .advertisement-section__right-container__info-container {
     height: 273px;
   }
+
   /* #endregion advertisement */
 
   /* #endregion modules */
