@@ -129,8 +129,7 @@ header {
 }
 
 .navbar__input__icon {
-  background:
-    url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
     center/contain no-repeat white;
   width: 20px;
   height: 20px;
@@ -236,8 +235,7 @@ header {
   display: block;
   width: 29px;
   height: 28px;
-  background:
-    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -246,13 +244,28 @@ header {
   flex: 1;
 }
 
-.btn-page-style--red {
-  background-color: #f72210;
+.btn-page-style--big {
   color: #f4f5f6;
   display: inline-block;
   padding: 10px 10px 10px 12px;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+}
+
+.btn-page-style--big-red {
+  background-color: #f72210;
+}
+
+.btn-page-style--big-red:hover {
+  background-color: #de1f0e;
+}
+
+.btn-page-style--big-gray {
+  background-color: #666;
+}
+
+.btn-page-style--big-gray:hover {
+  background-color: #999;
 }
 
 /* #endregion general */
@@ -303,14 +316,8 @@ header {
 /* #region story */
 .story__article {
   font-size: 0.76rem;
-  font-family:
-    "Lucida Sans",
-    "Lucida Sans Regular",
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    Geneva,
-    Verdana,
-    sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 15px;
 }
 
@@ -390,6 +397,21 @@ header {
 }
 
 /* #endregion opinion */
+
+/* #region top-advertisement */
+.newsletter-signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.newsletter-signup__summary {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+}
+/* #endregion top-advertisement */
 
 /* #region in the magazine */
 .article-in-the-magazine__image-word {
@@ -560,8 +582,7 @@ header {
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background:
-    url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
     0 0 / contain no-repeat;
   color: #e9212e;
 }
@@ -638,8 +659,7 @@ header {
 }
 
 .advertisement-section__right-container__image {
-  background:
-    rgba(0, 0, 0, 0)
+  background: rgba(0, 0, 0, 0)
     url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     no-repeat scroll center center / cover;
 
