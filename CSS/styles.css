@@ -305,6 +305,7 @@ header {
 .article__image {
   width: 100%;
 }
+
 /* #endregion article */
 
 /* #region no image new */
@@ -399,6 +400,7 @@ header {
   color: #555;
   text-transform: uppercase;
 }
+
 /* #endregion opinion */
 
 /* #region top-advertisement */
@@ -414,6 +416,7 @@ header {
   font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
 }
+
 /* #endregion top-advertisement */
 
 /* #region in the magazine */
