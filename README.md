@@ -51,7 +51,9 @@ https://newsweek-clone.web.app/
 - Twitter: [@OscarAlfredoGm4](https://twitter.com/OscarAlfredoGm4)
 - Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras-999589186)
 
----## 🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
