@@ -218,7 +218,6 @@ header {
 .title a:hover {
   text-decoration-color: #f72210;
   text-decoration-line: underline;
-  text-decoration-thickness: 1px;
   color: inherit;
 }
 
@@ -316,13 +315,13 @@ header {
   line-height: 22px;
   color: #000;
 }
+
 /* #endregion no image new */
 
 /* #region story */
 .story__article {
   font-size: 0.76rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 15px;
 }
 
@@ -588,8 +587,10 @@ header {
   line-height: 58px;
   text-indent: 5px;
   text-align: center;
-  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
-    0 0 / contain no-repeat;
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
   color: #e9212e;
 }
 
@@ -668,8 +669,6 @@ header {
   background: rgba(0, 0, 0, 0)
     url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     no-repeat scroll center center / cover;
-
-  /* max-width: 191px; */
   width: 100%;
   min-height: 160px;
 }
