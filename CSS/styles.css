@@ -1,0 +1,1011 @@
+/* #region base */
+
+/* From min-width, I find the answer on how to set the min-width of the page here
+https://stackoverflow.com/questions/3802455/min-width-in-window-resizing
+That's why I use important */
+body {
+  color: gray;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  min-width: 375px;
+  width: auto !important;
+  width: 375px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  height: 50px;
+  width: 100vw;
+}
+
+/* #endregion base */
+
+/* #region layout */
+
+/* #region header */
+
+/* #region header top */
+.page-header__date {
+  height: 20px;
+  width: 100%;
+}
+
+.header__item {
+  height: 50px;
+}
+
+.page-header__links {
+  height: 30px;
+  width: 100%;
+}
+
+.page-header__link-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  padding: 6px 3px;
+}
+
+.page-header__menu-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.bar {
+  background-color: #fb9a94;
+  display: block;
+  margin-top: 4px;
+  height: 4px;
+  width: 24px;
+  position: relative;
+  bottom: 2px;
+}
+
+.page-header__button:hover {
+  color: red;
+}
+
+.page-header__main-title {
+  height: 20px;
+  width: 132px;
+  fill: white;
+}
+
+/* #endregion header top */
+
+/* #region navbar */
+.navbar {
+  left: -35px;
+  top: 10px;
+  background-color: #fff;
+  border-bottom: 2px solid #f4f5f6;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar__list {
+  margin-left: -40px;
+  width: 100%;
+}
+
+.navbar__list-item {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar__list-item:hover {
+  color: red;
+}
+
+.navbar__input {
+  width: 75px;
+  font-size: 0.785rem;
+  margin-left: 15px;
+}
+
+.navbar__input__icon {
+  background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+}
+
+/* #endregion navbar */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #region top section */
+.top-section__column-left {
+  background-color: white;
+}
+
+.top-section__column-middle {
+  background-color: white;
+}
+
+.top-section__column-right {
+  background-color: white;
+}
+
+.top-section__title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: rgba(3, 3, 3, 0.4);
+  height: 22px;
+  padding-left: 2px;
+  padding-top: 10px;
+}
+
+/* #endregion top section */
+
+/* #region conversation */
+.conversation-section {
+  background-color: black;
+}
+
+/* #endregion conversation */
+
+/* #endregion main */
+
+/* #region footer */
+.footer {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 14rem;
+}
+
+/* #endregion footer */
+
+/* #endregion layout */
+
+/* #region modules */
+
+/* #region general */
+.btn-page-style {
+  box-sizing: border-box;
+  background-color: white;
+  color: red;
+  padding: 4px;
+  height: 26px;
+  line-height: 19px;
+}
+
+.border-right {
+  border-right: 0.5px solid #000 !important;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.gap-10 {
+  width: 10px;
+}
+
+.title a:hover {
+  text-decoration-color: #f72210;
+  text-decoration-line: underline;
+  color: inherit;
+}
+
+.hover-red:hover {
+  color: #f72210;
+}
+
+.section-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.section-title__icon {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f72210;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.d-flex-1 {
+  flex: 1;
+}
+
+.btn-page-style--big {
+  color: #f4f5f6;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-page-style--big-red {
+  background-color: #f72210;
+}
+
+.btn-page-style--big-red:hover {
+  background-color: #de1f0e;
+}
+
+.btn-page-style--big-gray {
+  background-color: #666;
+}
+
+.btn-page-style--big-gray:hover {
+  background-color: #999;
+}
+
+/* #endregion general */
+
+/* #region article */
+.article__image-word {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+  text-transform: uppercase;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.article__title {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 24px;
+}
+
+.article__summary {
+  font-size: 0.875rem;
+  line-height: 18px;
+  color: #000;
+}
+
+.article__image {
+  width: 100%;
+}
+
+/* #endregion article */
+
+/* #region no image new */
+.no-image-new {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 0;
+  line-height: 22px;
+  color: #000;
+}
+
+/* #endregion no image new */
+
+/* #region story */
+.story__article {
+  font-size: 0.76rem;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 15px;
+}
+
+.story__article__title {
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+  font-size: 0.985rem;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.story-article__image {
+  width: 135px;
+  height: 90px;
+}
+
+/* #endregion more stories */
+
+/* #region culture and travel */
+.culture-travel {
+  background-color: #f4f5f7;
+}
+
+.culture-travel__article {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culture-travel__article--padding-right {
+  padding: 0;
+}
+
+.culture-travel__article--padding-left {
+  padding: 0;
+}
+
+.culture-travel__button {
+  display: block;
+  background-color: #c2d4d7;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: left;
+  width: 55px;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+.culture-travel__image {
+  width: 100%;
+}
+
+.culture-travel__title {
+  color: #272727;
+  font-size: 20px;
+  font-family: "Lora", sans-serif;
+}
+
+/* #endregion culture and travel */
+
+/* #region opinion */
+.opinion__image {
+  width: 63px;
+  height: 63px;
+}
+
+.opinion__author {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+}
+
+/* #endregion opinion */
+
+/* #region top-advertisement */
+.newsletter-signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.newsletter-signup__summary {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+/* #endregion top-advertisement */
+
+/* #region in the magazine */
+.article-in-the-magazine__image-word {
+  font-size: 0.875rem;
+}
+
+.article-in-the-magazine__image-word-left {
+  background-color: #f72210;
+  color: #fff;
+}
+
+.article-in-the-magazine__image-word-right {
+  background-color: #fff;
+  color: #f72210;
+}
+
+.article-in-the-magazine__title {
+  font-size: 0.995rem;
+  line-height: 15px;
+}
+
+.article-in-the-magazine__image {
+  height: 100%;
+  width: 100%;
+}
+
+.article-in-the-magazine__title-featured {
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/* #endregion in the magazine */
+
+/* #region conversations */
+.genereicon {
+  text-align: center;
+  display: block;
+  font-family: "Genericons", sans-serif;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.genereicon-play {
+  background-color: #fd0100;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 60px;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+}
+
+.genereicon-play--small {
+  height: 45px;
+  width: 45px;
+  font-size: 40px;
+  line-height: 30px;
+  top: -45px;
+  z-index: 1;
+}
+
+.conversation-section__article {
+  border-top: 1px solid #fff;
+}
+
+.conversation-section__featured-title {
+  font-size: 1.645rem !important;
+  line-height: 34px !important;
+  color: #fff !important;
+}
+
+.conversation-section__title {
+  font-size: 1.245rem !important;
+  line-height: 34px !important;
+  color: #fff !important;
+}
+
+.conversation-section__time {
+  font-size: 0.985rem;
+}
+
+.conversation-section__main-image {
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+}
+
+.conversation-section__image {
+  display: block;
+  height: 223.617px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.conversation-section__small-title {
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.conversation-section__image--small {
+  top: 20px;
+}
+
+.conversation-section__image--small-first {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 86.41px;
+}
+
+.conversation-section__image--small-second {
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 86.41px;
+}
+
+.conversation-section__image--small-third {
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 150px;
+  height: 86.41px;
+}
+
+.conversation-section__first-column {
+  padding: 20px;
+}
+
+.conversation-section__third-column {
+  padding: 0;
+}
+
+.conversation-section__paragraph {
+  margin-bottom: 10px;
+}
+
+/* #endregion conversations */
+
+/* #region featured slideshows */
+.article-featured-slideshows__image-word {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #e9212e;
+}
+
+/* #endregion featured slideshows */
+
+/* #region in page nav sections */
+.in-page-nav-section__block-title {
+  color: #f72210;
+  font-size: 0.995rem;
+  line-height: 22px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.in-page-nav-section__title {
+  display: block;
+  width: 100%;
+}
+
+/* #endregion in page nav sections */
+
+/* #region line break */
+.line-break {
+  width: 120%;
+  border: 1px solid #d9d9d9;
+  height: 2px;
+  left: -10%;
+}
+
+/* #endregion line break */
+
+/* #region advertisement */
+.advertisement-section__left-container {
+  background-color: #d9d9d9;
+  color: #000;
+}
+
+.advertisement-section__right-container {
+  border: #d9d9d9;
+  height: 100%;
+}
+
+.advertisement-section__title {
+  font-size: 0.785rem;
+}
+
+.advertisement-section__container-title {
+  font-size: 1.3rem;
+  color: #000;
+  font-weight: bold;
+  padding-right: 0.895rem;
+}
+
+.advertisement__images-container {
+  width: 260px;
+  height: 241px;
+  margin-right: 30px;
+  max-width: 260px;
+}
+
+.advertisement__image-container {
+  width: 170px;
+  height: 228px;
+}
+
+.advertisement-section__left-container__image-left {
+  left: 5%;
+}
+
+.advertisement-section__left-containter__image-right {
+  left: 36%;
+  top: 6%;
+}
+
+.advertisement-section__right-container__image {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 160px;
+}
+
+.advertisement-section__right-container__summary {
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.advertisement-section__left-container__info-container {
+  text-align: center;
+}
+
+.advertisement-section__right-container__info-container {
+  height: 160px;
+}
+
+/* #endregion advertisement */
+
+/* #region footer */
+.footer-top__svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.footer-top__copyright {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.footer-top__social {
+  color: #666;
+  padding-left: 0;
+  margin-bottom: 12px;
+}
+
+.footer-top__social-item {
+  margin-left: 10px;
+}
+
+.footer-bottom__links {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666;
+}
+
+.footer-bottom__links-item-first {
+  padding-left: 0;
+}
+
+.footer-bottom__links-item {
+  display: inline-block;
+  padding-right: 20px;
+  margin: 6px 0;
+  cursor: pointer;
+  border-right: 1px solid #d9d9d9;
+}
+
+.footer-bottom__links-item-last {
+  border: none;
+}
+
+.footer__menu {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.footer__menu-last {
+  padding-left: 0;
+}
+
+/* #endregion footer */
+
+/* #endregion modules */
+
+/* #region media queries */
+
+@media only screen and (min-width: 768px) {
+  /* #region layout */
+
+  /* #region footer */
+  .footer {
+    margin-top: 2rem;
+  }
+
+  /* #endregion footer */
+
+  /* #endregion layout */
+
+  /* #region modules */
+
+  /* #region general */
+
+  /* #endregion general */
+
+  /* #region main */
+
+  /* #region culture and travel */
+  .culture-travel__article--padding-right {
+    padding-right: 2px;
+    padding-left: 15px;
+  }
+
+  .culture-travel__article--padding-left {
+    padding-left: 2px;
+    padding-right: 15px;
+  }
+
+  /* #endregion culture and travel */
+
+  /* #region conversations */
+  .conversation-section__image {
+    height: 100%;
+  }
+
+  .genereicon-play {
+    height: 53px;
+    width: 53px;
+    font-size: 45px;
+    line-height: 40px;
+  }
+
+  .genereicon-play--small {
+    height: 45px;
+    width: 45px;
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .conversation-section__image--small {
+    top: 0;
+    padding: 0;
+  }
+
+  .conversation-section__image--small-first {
+    height: 100%;
+    width: 100%;
+  }
+
+  .conversation-section__image--small-second {
+    height: 100%;
+    width: 100%;
+  }
+
+  .conversation-section__image--small-third {
+    height: 100%;
+    width: 100%;
+  }
+
+  .conversation-section__first-column {
+    padding: 40px 25px 30px;
+    min-width: 246px;
+  }
+
+  .conversation-section__featured-title {
+    font-size: 25px !important;
+    line-height: 32px !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* #endregion conversations */
+
+  /* #region advertisement */
+  .advertisement-section__left-container__info-container,
+  .advertisement-section__right-container__summary {
+    text-align: left;
+  }
+
+  .advertisement-section__right-container__image {
+    max-width: 191px;
+  }
+
+  /* #endregion advertisement */
+
+  /* #endregion main */
+
+  /* #endregion modules */
+}
+
+@media only screen and (min-width: 992px) {
+  /* #region header */
+
+  /* #region header top */
+  .page-header {
+    height: 95px;
+  }
+
+  .header__item:first-child {
+    margin-top: 20px;
+  }
+
+  .page-header__date {
+    font-size: 0.98rem;
+    top: 20px;
+  }
+
+  .page-header__label {
+    font-size: 1.2rem;
+  }
+
+  .btn-page-style {
+    margin: 0 15px;
+    font-size: 1.2rem;
+  }
+
+  .page-header__end {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .header__item__right-container {
+    top: 20px;
+  }
+
+  /* #endregion header top */
+
+  /* #region navbar */
+  .page-header__main-title {
+    width: 395.633px;
+    height: 60px;
+    margin-top: 20px;
+  }
+
+  .top-section__item {
+    margin-top: 60px;
+  }
+
+  /* #endregion navbar */
+
+  /* #endregion header */
+
+  /* #region main */
+
+  /* #region modules */
+
+  /* #region general */
+  .border-lg-bottom {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .padding-lg-bottom-1 {
+    padding-bottom: 1%;
+  }
+
+  .footer__menu-last {
+    padding-left: 15px;
+  }
+
+  /* #endregion general */
+
+  /* #region in the magazine */
+  .article-in-the-magazine__image-first--big {
+    height: 379.133px !important;
+  }
+
+  .article-in-the-magazine__image-last--big {
+    height: 319px !important;
+  }
+
+  .article-in-the-magazine__image-lg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+  }
+
+  .article-in-the-magazine__image-lg-featured {
+    background-image: url("https://d.newsweek.com/en/full/1556038/january-03-17-2020-cover.jpg?w=360&h=480&q=90&f=900a7949a9d4cc3e53ba2ecee1de3602");
+  }
+
+  .article-in-the-magazine__image-lg-1-1 {
+    background-image: url("https://d.newsweek.com/en/full/1555301/fe-queen-02-1175861265.jpg?w=466&h=311&l=52&t=20&q=90&f=b465ad88a227817f5e10c6870b784301");
+  }
+
+  .article-in-the-magazine__image-lg-1-2 {
+    background-image: url("https://d.newsweek.com/en/full/1558298/donald-trump.jpg?w=397&h=265&l=0&t=0&q=90&f=a2eedc207bbc37839c5e0a7acd7812a7");
+  }
+
+  .article-in-the-magazine__image-lg-1-3 {
+    background-image: url("https://d.newsweek.com/en/full/1555283/per-durham-01-banner.jpg?w=466&h=311&l=51&t=38&q=90&f=d0c02907def67ab44db9659b57a0d877");
+  }
+
+  .article-in-the-magazine__image-lg-2-1 {
+    background-image: url("https://d.newsweek.com/en/full/1555244/per-mathqanda-banner.jpg?w=466&h=311&q=90&f=299d38584520b38dbb048bcb17b850e4");
+  }
+
+  .article-in-the-magazine__image-lg-2-2 {
+    background-image: url("https://d.newsweek.com/en/full/1555857/cul-map-wellness-morocco.jpg?w=466&h=311&q=90&f=fbdb51d8b5a230ed9cfdee635fe19372");
+  }
+
+  .article-in-the-magazine__image-lg-2-3 {
+    background-image: url("https://d.newsweek.com/en/full/1554653/cul-ps-erivo-banner.jpg?w=466&h=311&l=48&t=38&q=90&f=4d2f648271497646b6f7dc7999df4b46");
+  }
+
+  .article-in-the-magazine__image-lg-2-4 {
+    background-image: url("https://d.newsweek.com/en/full/1555679/battle-cry.jpg?w=480&h=320&l=52&t=48&q=90&f=15fe70f755c1bd14895070e8604d2bb0");
+  }
+
+  /* #endregion in the magazine */
+
+  /* #region conversations */
+  .conversation__image--small {
+    width: 167.083px;
+  }
+
+  .conversation-section__small-title {
+    font-size: 1.2rem !important;
+    color: #fff;
+  }
+
+  .conversation-section__first-column {
+    padding: 40px 25px 30px;
+  }
+
+  /* #endregion conversations */
+
+  /* #region advertisement */
+  .advertisement-section__right-container__info-container {
+    height: 273px;
+  }
+
+  /* #endregion advertisement */
+
+  /* #endregion modules */
+
+  /* #endregion main */
+}
+
+/* #endregion media queries */
