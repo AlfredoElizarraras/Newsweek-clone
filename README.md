@@ -1,16 +1,22 @@
+
+
 ---
 
-# Apple Page Clone
+# Newsweek clone
 
 > This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
 
 ![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
 
----## Live Demo
+---
+
+## Live Demo
 
 https://newsweek-clone.web.app/
 
----## Built With
+---
+
+## Built With
 
 - HTML5
 - CSS3
@@ -18,7 +24,9 @@ https://newsweek-clone.web.app/
 - Firebase (Deploy)
 - Node
 
----### Prerequisites
+---
+
+### Prerequisites
 
 - Node.js (for Browersync)
 - Web Browser
@@ -35,7 +43,7 @@ https://newsweek-clone.web.app/
 
 `npm install`
 
----## Authors
+## Authors
 
 👤 **Oscar Alfredo Gómez Elizarrarás**
 
@@ -58,7 +66,9 @@ Give a ⭐️ if you like this project!
 - [Microverse](https://microverse.org)
 - [Odin project](https://www.theodinproject.com/)
 
----## 📝 License
+---
+
+## 📝 License
 
 This project is [MIT](lic.url) licensed.
 
