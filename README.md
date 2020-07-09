@@ -1,20 +1,27 @@
+<h1 align="center">
+  Newsweek clone
+</h1>
 
+## Table of Contents
 
----
+* [About the Project](#about-the-project)
+* [Live demo](#live-demo)
+* [Built With](#built-with)
+* [Prerequisites](#prerequisites)
+* [Install](#install)
+* [Authors](#authors)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
+* [Screen shots](#screen-shots)
+* [License](#license)
 
-# Newsweek clone
+## About the project
 
-> This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
-
-![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
-
----
+> This project is a clone of the design of the popular news site newsweek, the intentiton of it is to practice HTML, Design principles, CSS, flexbox.
 
 ## Live Demo
 
 https://newsweek-clone.web.app/
-
----
 
 ## Built With
 
@@ -24,8 +31,6 @@ https://newsweek-clone.web.app/
 - Firebase (Deploy)
 - Node
 
----
-
 ### Prerequisites
 
 - Node.js (for Browersync)
@@ -33,11 +38,7 @@ https://newsweek-clone.web.app/
 - CLI
 - IDE
 
-### Dependencies
-
-- Browsersync
-
-### Install
+## Install
 
 `git clone https://github.com/AlfredoElizarraras/Newsweek-clone.git`
 
@@ -45,21 +46,21 @@ https://newsweek-clone.web.app/
 
 ## Authors
 
+> This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
+
 👤 **Oscar Alfredo Gómez Elizarrarás**
 
 - Github: [@AlfredoElizarraras](https://github.com/AlfredoElizarraras)
 - Twitter: [@OscarAlfredoGm4](https://twitter.com/OscarAlfredoGm4)
 - Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras)
 
----
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/AlfredoElizarraras/Newsweek-clone/issues).
 
-## Show your support
+### Show your support
 
 Give a ⭐️ if you like this project!
 
@@ -68,9 +69,13 @@ Give a ⭐️ if you like this project!
 - [Microverse](https://microverse.org)
 - [Odin project](https://www.theodinproject.com/)
 
+## Screen shots
+
+![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
+
 ---
 
-## 📝 License
+## License
 
 This project is [MIT](lic.url) licensed.
 
